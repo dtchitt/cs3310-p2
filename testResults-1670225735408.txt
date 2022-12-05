@@ -1,0 +1,447 @@
+
+Test Started at : Sun Dec 04 23:35:35 PST 2022
+
+Testing Merge Sort with n = 10
+K = 1: 25444854
+K = 2: 163473208
+K = 5: 305768141
+K = 7: 391961660
+K = 10: 974416087
+
+K = 1 Total Time = 992200 Average Time = 992
+K = 2 Total Time = 957200 Average Time = 957
+K = 5 Total Time = 958800 Average Time = 958
+K = 7 Total Time = 969200 Average Time = 969
+K = 10 Total Time = 949800 Average Time = 949
+
+Testing Quicksort (Iteratively) with n = 10
+K = 1: 25444854
+K = 2: 163473208
+K = 5: 305768141
+K = 7: 391961660
+K = 10: 974416087
+
+K = 1 Total Time = 559000 Average Time = 559
+K = 2 Total Time = 547700 Average Time = 547
+K = 5 Total Time = 569400 Average Time = 569
+K = 7 Total Time = 556000 Average Time = 556
+K = 10 Total Time = 555400 Average Time = 555
+
+Testing Quicksort (Recursively) with n = 10
+K = 1: 25444854
+K = 2: 163473208
+K = 5: 305768141
+K = 7: 391961660
+K = 10: 974416087
+
+K = 1 Total Time = 306800 Average Time = 306
+K = 2 Total Time = 283500 Average Time = 283
+K = 5 Total Time = 283200 Average Time = 283
+K = 7 Total Time = 290000 Average Time = 290
+K = 10 Total Time = 293300 Average Time = 293
+
+Testing Quicksort (MM) with n = 10
+K = 1: 25444854
+K = 2: 163473208
+K = 5: 305768141
+
+K = 1 Total Time = 2570200 Average Time = 2570
+K = 2 Total Time = 1656900 Average Time = 1656
+K = 5 Total Time = 1268200 Average Time = 1268
+
+Testing Merge Sort with n = 50
+K = 1: 9417689
+K = 12: 208248002
+K = 25: 536718793
+K = 37: 769376388
+K = 50: 993382649
+
+K = 1 Total Time = 3656900 Average Time = 3656
+K = 50 Total Time = 3588500 Average Time = 3588
+K = 37 Total Time = 3613500 Average Time = 3613
+K = 25 Total Time = 3635700 Average Time = 3635
+K = 12 Total Time = 3589600 Average Time = 3589
+
+Testing Quicksort (Iteratively) with n = 50
+K = 1: 9417689
+K = 12: 208248002
+K = 25: 536718793
+K = 37: 769376388
+K = 50: 993382649
+
+K = 1 Total Time = 646200 Average Time = 646
+K = 50 Total Time = 632000 Average Time = 632
+K = 37 Total Time = 639100 Average Time = 639
+K = 25 Total Time = 635500 Average Time = 635
+K = 12 Total Time = 637000 Average Time = 637
+
+Testing Quicksort (Recursively) with n = 50
+K = 1: 9417689
+K = 12: 208248002
+K = 25: 536718793
+K = 37: 769376388
+K = 50: 993382649
+
+K = 1 Total Time = 692100 Average Time = 692
+K = 50 Total Time = 671500 Average Time = 671
+K = 37 Total Time = 669000 Average Time = 669
+K = 25 Total Time = 665900 Average Time = 665
+K = 12 Total Time = 676300 Average Time = 676
+
+Testing Quicksort (MM) with n = 50
+K = 1: 9417689
+K = 12: 208248002
+K = 25: 536718793
+
+K = 1 Total Time = 3933800 Average Time = 3933
+K = 25 Total Time = 2948700 Average Time = 2948
+K = 12 Total Time = 3495800 Average Time = 3495
+
+Testing Merge Sort with n = 100
+K = 1: 16653348
+K = 25: 249806420
+K = 50: 534304282
+K = 75: 785201744
+K = 100: 992882984
+
+K = 1 Total Time = 9349100 Average Time = 9349
+K = 50 Total Time = 5743800 Average Time = 5743
+K = 100 Total Time = 5728200 Average Time = 5728
+K = 25 Total Time = 5771300 Average Time = 5771
+K = 75 Total Time = 5724900 Average Time = 5724
+
+Testing Quicksort (Iteratively) with n = 100
+K = 1: 16653348
+K = 25: 249806420
+K = 50: 534304282
+K = 75: 785201744
+K = 100: 992882984
+
+K = 1 Total Time = 1305800 Average Time = 1305
+K = 50 Total Time = 1284700 Average Time = 1284
+K = 100 Total Time = 1286400 Average Time = 1286
+K = 25 Total Time = 1284200 Average Time = 1284
+K = 75 Total Time = 1285300 Average Time = 1285
+
+Testing Quicksort (Recursively) with n = 100
+K = 1: 16653348
+K = 25: 249806420
+K = 50: 534304282
+K = 75: 785201744
+K = 100: 992882984
+
+K = 1 Total Time = 1572400 Average Time = 1572
+K = 50 Total Time = 1561100 Average Time = 1561
+K = 100 Total Time = 1562600 Average Time = 1562
+K = 25 Total Time = 1554800 Average Time = 1554
+K = 75 Total Time = 1546700 Average Time = 1546
+
+Testing Quicksort (MM) with n = 100
+K = 1: 16653348
+K = 25: 249806420
+K = 50: 534304282
+
+K = 1 Total Time = 5190500 Average Time = 5190
+K = 50 Total Time = 4446900 Average Time = 4446
+K = 25 Total Time = 4904800 Average Time = 4904
+
+Testing Merge Sort with n = 500
+K = 1: 1790312
+K = 125: 289143016
+K = 250: 532025882
+K = 375: 793401970
+K = 500: 999315501
+
+K = 1 Total Time = 36512900 Average Time = 36512
+K = 500 Total Time = 36318600 Average Time = 36318
+K = 375 Total Time = 36402500 Average Time = 36402
+K = 250 Total Time = 36461900 Average Time = 36461
+K = 125 Total Time = 36487900 Average Time = 36487
+
+Testing Quicksort (Iteratively) with n = 500
+K = 1: 1790312
+K = 125: 289143016
+K = 250: 532025882
+K = 375: 793401970
+K = 500: 999315501
+
+K = 1 Total Time = 9358200 Average Time = 9358
+K = 500 Total Time = 9355100 Average Time = 9355
+K = 375 Total Time = 9387100 Average Time = 9387
+K = 250 Total Time = 9371000 Average Time = 9371
+K = 125 Total Time = 9366000 Average Time = 9366
+
+Testing Quicksort (Recursively) with n = 500
+K = 1: 1790312
+K = 125: 289143016
+K = 250: 532025882
+K = 375: 793401970
+K = 500: 999315501
+
+K = 1 Total Time = 8963300 Average Time = 8963
+K = 500 Total Time = 9016000 Average Time = 9016
+K = 375 Total Time = 8932700 Average Time = 8932
+K = 250 Total Time = 8946600 Average Time = 8946
+K = 125 Total Time = 8948600 Average Time = 8948
+
+Testing Quicksort (MM) with n = 500
+K = 1: 1790312
+K = 125: 289143016
+K = 250: 532025882
+
+K = 1 Total Time = 34262400 Average Time = 34262
+K = 250 Total Time = 38300100 Average Time = 38300
+K = 125 Total Time = 36438500 Average Time = 36438
+
+Testing Merge Sort with n = 1000
+K = 1: 84951
+K = 250: 257207969
+K = 500: 522033285
+K = 750: 757396489
+K = 1000: 999943031
+
+K = 1 Total Time = 96647300 Average Time = 96647
+K = 500 Total Time = 96721600 Average Time = 96721
+K = 1000 Total Time = 98975300 Average Time = 98975
+K = 250 Total Time = 96850000 Average Time = 96850
+K = 750 Total Time = 96569700 Average Time = 96569
+
+Testing Quicksort (Iteratively) with n = 1000
+K = 1: 84951
+K = 250: 257207969
+K = 500: 522033285
+K = 750: 757396489
+K = 1000: 999943031
+
+K = 1 Total Time = 28397200 Average Time = 28397
+K = 500 Total Time = 28413300 Average Time = 28413
+K = 1000 Total Time = 28419300 Average Time = 28419
+K = 250 Total Time = 28406200 Average Time = 28406
+K = 750 Total Time = 28440700 Average Time = 28440
+
+Testing Quicksort (Recursively) with n = 1000
+K = 1: 84951
+K = 250: 257207969
+K = 500: 522033285
+K = 750: 757396489
+K = 1000: 999943031
+
+K = 1 Total Time = 26615300 Average Time = 26615
+K = 500 Total Time = 26620300 Average Time = 26620
+K = 1000 Total Time = 26626400 Average Time = 26626
+K = 250 Total Time = 26708100 Average Time = 26708
+K = 750 Total Time = 26663000 Average Time = 26663
+
+Testing Quicksort (MM) with n = 1000
+K = 1: 84951
+K = 250: 257207969
+K = 500: 522033285
+
+K = 1 Total Time = 52389900 Average Time = 52389
+K = 500 Total Time = 50539400 Average Time = 50539
+K = 250 Total Time = 48480200 Average Time = 48480
+
+Testing Merge Sort with n = 5000
+K = 1: 250001
+K = 1250: 242759809
+K = 2500: 494292896
+K = 3750: 749633337
+K = 5000: 999912690
+
+K = 1 Total Time = 440428600 Average Time = 440428
+K = 1250 Total Time = 440031200 Average Time = 440031
+K = 2500 Total Time = 437970000 Average Time = 437970
+K = 3750 Total Time = 437845200 Average Time = 437845
+K = 5000 Total Time = 440144200 Average Time = 440144
+
+Testing Quicksort (Iteratively) with n = 5000
+K = 1: 250001
+K = 1250: 242759809
+K = 2500: 494292896
+K = 3750: 749633337
+K = 5000: 999912690
+
+K = 1 Total Time = 262333600 Average Time = 262333
+K = 1250 Total Time = 262224100 Average Time = 262224
+K = 2500 Total Time = 262422400 Average Time = 262422
+K = 3750 Total Time = 264909300 Average Time = 264909
+K = 5000 Total Time = 262382900 Average Time = 262382
+
+Testing Quicksort (Recursively) with n = 5000
+K = 1: 250001
+K = 1250: 242759809
+K = 2500: 494292896
+K = 3750: 749633337
+K = 5000: 999912690
+
+K = 1 Total Time = 261402000 Average Time = 261402
+K = 1250 Total Time = 261381800 Average Time = 261381
+K = 2500 Total Time = 261264200 Average Time = 261264
+K = 3750 Total Time = 261489200 Average Time = 261489
+K = 5000 Total Time = 261317400 Average Time = 261317
+
+Testing Quicksort (MM) with n = 5000
+K = 1: 250001
+K = 1250: 242759809
+K = 2500: 494292896
+
+K = 1 Total Time = 402568700 Average Time = 402568
+K = 1250 Total Time = 160440700 Average Time = 160440
+K = 2500 Total Time = 383647200 Average Time = 383647
+
+Testing Merge Sort with n = 10000
+K = 1: 206228
+K = 2500: 252464007
+K = 5000: 495673995
+K = 7500: 756243570
+K = 10000: 999947591
+
+K = 10000 Total Time = 955109900 Average Time = 955109
+K = 1 Total Time = 954847500 Average Time = 954847
+K = 2500 Total Time = 955040000 Average Time = 955040
+K = 5000 Total Time = 970830100 Average Time = 970830
+K = 7500 Total Time = 955011200 Average Time = 955011
+
+Testing Quicksort (Iteratively) with n = 10000
+K = 1: 206228
+K = 2500: 252464007
+K = 5000: 495673995
+K = 7500: 756243570
+K = 10000: 999947591
+
+K = 10000 Total Time = 594489400 Average Time = 594489
+K = 1 Total Time = 594521100 Average Time = 594521
+K = 2500 Total Time = 593772300 Average Time = 593772
+K = 5000 Total Time = 594077600 Average Time = 594077
+K = 7500 Total Time = 594091300 Average Time = 594091
+
+Testing Quicksort (Recursively) with n = 10000
+K = 1: 206228
+K = 2500: 252464007
+K = 5000: 495673995
+K = 7500: 756243570
+K = 10000: 999947591
+
+K = 10000 Total Time = 582349300 Average Time = 582349
+K = 1 Total Time = 582204400 Average Time = 582204
+K = 2500 Total Time = 582650200 Average Time = 582650
+K = 5000 Total Time = 583052400 Average Time = 583052
+K = 7500 Total Time = 583146100 Average Time = 583146
+
+Testing Quicksort (MM) with n = 10000
+K = 1: 206228
+K = 2500: 252464007
+K = 5000: 495673995
+
+K = 1 Total Time = 709706400 Average Time = 709706
+K = 2500 Total Time = 701280500 Average Time = 701280
+K = 5000 Total Time = 682616000 Average Time = 682616
+
+Testing Merge Sort with n = 50000
+K = 1: 14595
+K = 12500: 250266091
+K = 25000: 499924305
+K = 37500: 749481141
+K = 50000: 999986429
+
+K = 50000 Total Time = 5527284500 Average Time = 5527284
+K = 1 Total Time = 5523757700 Average Time = 5523757
+K = 12500 Total Time = 5528052700 Average Time = 5528052
+K = 25000 Total Time = 5524916300 Average Time = 5524916
+K = 37500 Total Time = 5523239800 Average Time = 5523239
+
+Testing Quicksort (Iteratively) with n = 50000
+K = 1: 14595
+K = 12500: 250266091
+K = 25000: 499924305
+K = 37500: 749481141
+K = 50000: 999986429
+
+K = 50000 Total Time = 3549078300 Average Time = 3549078
+K = 1 Total Time = 3552695300 Average Time = 3552695
+K = 12500 Total Time = 3552479300 Average Time = 3552479
+K = 25000 Total Time = 3550454300 Average Time = 3550454
+K = 37500 Total Time = 3550835500 Average Time = 3550835
+
+Testing Quicksort (Recursively) with n = 50000
+K = 1: 14595
+K = 12500: 250266091
+K = 25000: 499924305
+K = 37500: 749481141
+K = 50000: 999986429
+
+K = 50000 Total Time = 3481815300 Average Time = 3481815
+K = 1 Total Time = 3481958600 Average Time = 3481958
+K = 12500 Total Time = 3480976300 Average Time = 3480976
+K = 25000 Total Time = 3479197100 Average Time = 3479197
+K = 37500 Total Time = 3479091700 Average Time = 3479091
+
+Testing Quicksort (MM) with n = 50000
+K = 1: 14595
+K = 12500: 250266091
+K = 25000: 499924305
+
+K = 1 Total Time = 3878338300 Average Time = 3878338
+K = 12500 Total Time = 1611249400 Average Time = 1611249
+K = 25000 Total Time = 3754163300 Average Time = 3754163
+
+Testing Merge Sort with n = 100000
+K = 1: 11681
+K = 25000: 248393749
+K = 50000: 500760463
+K = 75000: 750996402
+K = 100000: 999997872
+
+K = 50000 Total Time = 11583826700 Average Time = 11583826
+K = 100000 Total Time = 11583520800 Average Time = 11583520
+K = 1 Total Time = 11592744500 Average Time = 11592744
+K = 25000 Total Time = 11578003700 Average Time = 11578003
+K = 75000 Total Time = 11583823500 Average Time = 11583823
+
+Testing Quicksort (Iteratively) with n = 100000
+K = 1: 11681
+K = 25000: 248393749
+K = 50000: 500760463
+K = 75000: 750996402
+K = 100000: 999997872
+
+K = 50000 Total Time = 7625009500 Average Time = 7625009
+K = 100000 Total Time = 7628216400 Average Time = 7628216
+K = 1 Total Time = 7637108800 Average Time = 7637108
+K = 25000 Total Time = 7627428100 Average Time = 7627428
+K = 75000 Total Time = 7624529100 Average Time = 7624529
+
+Testing Quicksort (Recursively) with n = 100000
+K = 1: 11681
+K = 25000: 248393749
+K = 50000: 500760463
+K = 75000: 750996402
+K = 100000: 999997872
+
+K = 50000 Total Time = 7473908100 Average Time = 7473908
+K = 100000 Total Time = 7465533100 Average Time = 7465533
+K = 1 Total Time = 7472867200 Average Time = 7472867
+K = 25000 Total Time = 7479332100 Average Time = 7479332
+K = 75000 Total Time = 7460876100 Average Time = 7460876
+
+Testing Quicksort (MM) with n = 100000
+K = 1: 11681
+K = 25000: 248393749
+K = 50000: 500760463
+
+K = 50000 Total Time = 7948437200 Average Time = 7948437
+K = 1 Total Time = 8243873900 Average Time = 8243873
+K = 25000 Total Time = 7932619100 Average Time = 7932619
+
+Testing Merge Sort with n = 500000
+K = 1: 751
+K = 125000: 251257532
+K = 250000: 500948228
+K = 375000: 750306323
+K = 500000: 999999355
+
+K = 1 Total Time = 64235684600 Average Time = 64235684
+K = 250000 Total Time = 64240590200 Average Time = 64240590
+K = 500000 Total Time = 64243850900 Average Time = 64243850
+K = 125000 Total Time = 64244641700 Average Time = 64244641
+K = 375000 Total Time = 64255959600 Average Time = 64255959

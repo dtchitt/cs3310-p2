@@ -1,0 +1,41 @@
+
+Test Started at : Sun Dec 04 23:18:29 PST 2022
+
+Testing Merge Sort with n = 10
+K = 1: 63638037
+K = 2: 136325242
+K = 5: 240026934
+K = 7: 445574984
+K = 10: 733967591
+
+K = 1 Total Time = 972500 Average Time = 972
+K = 2 Total Time = 997900 Average Time = 997
+K = 5 Total Time = 947000 Average Time = 947
+K = 7 Total Time = 939500 Average Time = 939
+K = 10 Total Time = 937800 Average Time = 937
+
+Testing Quicksort (Iteratively) with n = 10
+K = 1: 63638037
+K = 2: 136325242
+K = 5: 240026934
+K = 7: 445574984
+K = 10: 733967591
+
+K = 1 Total Time = 554100 Average Time = 554
+K = 2 Total Time = 549100 Average Time = 549
+K = 5 Total Time = 527300 Average Time = 527
+K = 7 Total Time = 574600 Average Time = 574
+K = 10 Total Time = 549200 Average Time = 549
+
+Testing Quicksort (Recursively) with n = 10
+K = 1: 63638037
+K = 2: 136325242
+K = 5: 240026934
+K = 7: 445574984
+K = 10: 733967591
+
+K = 1 Total Time = 417200 Average Time = 417
+K = 2 Total Time = 403200 Average Time = 403
+K = 5 Total Time = 408100 Average Time = 408
+K = 7 Total Time = 407600 Average Time = 407
+K = 10 Total Time = 416300 Average Time = 416
