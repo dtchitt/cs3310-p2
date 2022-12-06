@@ -119,28 +119,16 @@ public class KthSelection {
 			contents += "Testing Quicksort (MM) with n = " + baseN + "\n";
 			for (int i = 0; i < ALGORTHIM_CALLS; i++) {
 				for (int K : kArr) {
-				tempArr = Arrays.copyOf(testArr, testArr.length);
-				algoStart = System.nanoTime();
+					tempArr = Arrays.copyOf(testArr, testArr.length);
+					algoStart = System.nanoTime();
 
-				int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, K);
-				kthTotalTime.merge(K, System.nanoTime() - algoStart, Long::sum);
+					int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, K);
+					kthTotalTime.merge(K, System.nanoTime() - algoStart, Long::sum);
 
-				if (i == 0) {
-				contents += "K = " + K + ": " + smallest + "\n";
+					if (i == 0) {
+						contents += "K = " + K + ": " + smallest + "\n";
+					}
 				}
-				}
-
-				// for (int j = 0; j < 5; j++) {
-				// 	tempArr = Arrays.copyOf(testArr, testArr.length);
-				// 	algoStart = System.nanoTime();
-
-				// 	int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, kArr[j]);
-				// 	kthTotalTime.merge(kArr[j], System.nanoTime() - algoStart, Long::sum);
-
-				// 	if (i == 0) {
-				// 		contents += "K = " + kArr[j] + ": " + smallest + "\n";
-				// 	}
-				// }
 			}
 
 			for (Integer key : kthTotalTime.keySet()) {
