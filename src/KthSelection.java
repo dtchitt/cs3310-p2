@@ -118,29 +118,29 @@ public class KthSelection {
 
 			contents += "Testing Quicksort (MM) with n = " + baseN + "\n";
 			for (int i = 0; i < ALGORTHIM_CALLS; i++) {
-				// for (int K : kArr) {
-				// tempArr = Arrays.copyOf(testArr, testArr.length);
-				// algoStart = System.nanoTime();
+				for (int K : kArr) {
+				tempArr = Arrays.copyOf(testArr, testArr.length);
+				algoStart = System.nanoTime();
 
-				// int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, K);
-				// kthTotalTime.merge(K, System.nanoTime() - algoStart, Long::sum);
+				int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, K);
+				kthTotalTime.merge(K, System.nanoTime() - algoStart, Long::sum);
 
-				// if (i == 0) {
-				// contents += "K = " + K + ": " + smallest + "\n";
-				// }
-				// }
-
-				for (int j = 0; j < 5; j++) {
-					tempArr = Arrays.copyOf(testArr, testArr.length);
-					algoStart = System.nanoTime();
-
-					int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, kArr[j]);
-					kthTotalTime.merge(kArr[j], System.nanoTime() - algoStart, Long::sum);
-
-					if (i == 0) {
-						contents += "K = " + kArr[j] + ": " + smallest + "\n";
-					}
+				if (i == 0) {
+				contents += "K = " + K + ": " + smallest + "\n";
 				}
+				}
+
+				// for (int j = 0; j < 5; j++) {
+				// 	tempArr = Arrays.copyOf(testArr, testArr.length);
+				// 	algoStart = System.nanoTime();
+
+				// 	int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, kArr[j]);
+				// 	kthTotalTime.merge(kArr[j], System.nanoTime() - algoStart, Long::sum);
+
+				// 	if (i == 0) {
+				// 		contents += "K = " + kArr[j] + ": " + smallest + "\n";
+				// 	}
+				// }
 			}
 
 			for (Integer key : kthTotalTime.keySet()) {
@@ -326,30 +326,5 @@ public class KthSelection {
 		arr[pivotloc] = temp;
 
 		return pivotloc;
-	}
-
-	public static int getPivot(int arr[], int low, int high) {
-		if (high - low + 1 <= 9) {
-			Arrays.sort(arr);
-			return arr[arr.length / 2];
-		}
-
-		int medians[] = new int[(int) Math.ceil((double) (high - low + 1) / 5)];
-		int medianIndex = 0;
-
-		while (low <= high) {
-			int temp[] = new int[Math.min(5, high - low + 1)];
-			for (int j = 0; j < temp.length && low <= high; j++) {
-				temp[j] = arr[low];
-				low++;
-			}
-
-			Arrays.sort(temp);
-
-			medians[medianIndex] = temp[temp.length / 2];
-			medianIndex++;
-		}
-
-		return getPivot(medians, 0, medians.length - 1);
 	}
 }
