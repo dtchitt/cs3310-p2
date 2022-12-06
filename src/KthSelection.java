@@ -119,18 +119,18 @@ public class KthSelection {
 			contents += "Testing Quicksort (MM) with n = " + baseN + "\n";
 			for (int i = 0; i < ALGORTHIM_CALLS; i++) {
 				// for (int K : kArr) {
-				// 	tempArr = Arrays.copyOf(testArr, testArr.length);
-				// 	algoStart = System.nanoTime();
+				// tempArr = Arrays.copyOf(testArr, testArr.length);
+				// algoStart = System.nanoTime();
 
-				// 	int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, K);
-				// 	kthTotalTime.merge(K, System.nanoTime() - algoStart, Long::sum);
+				// int smallest = mmQuickSort(tempArr, 0, tempArr.length - 1, K);
+				// kthTotalTime.merge(K, System.nanoTime() - algoStart, Long::sum);
 
-				// 	if (i == 0) {
-				// 		contents += "K = " + K + ": " + smallest + "\n";
-				// 	}
+				// if (i == 0) {
+				// contents += "K = " + K + ": " + smallest + "\n";
+				// }
 				// }
 
-				for (int j = 0; j < 3; j++) {
+				for (int j = 0; j < 5; j++) {
 					tempArr = Arrays.copyOf(testArr, testArr.length);
 					algoStart = System.nanoTime();
 
@@ -298,45 +298,34 @@ public class KthSelection {
 		return arr[k];
 	}
 
-	public static int mmQuickSort(int arr[], int start, int end, int k) {
-		if (start == end) {
-			return arr[start];
-		}
+	public static int mmQuickSort(int arr[], int low, int high, int k) {
+		int partition = mmPartition(arr, low, high);
 
-		int pivot = mmPartition(arr, start, end);
-		int length = pivot - start + 1;
-
-		if (length == k) {
-			return arr[pivot];
-		} else if (length > k) {
-			return mmQuickSort(arr, start, pivot - 1, k);
+		if (partition == k - 1) {
+			return arr[partition];
+		} else if (partition < k - 1) {
+			return mmQuickSort(arr, partition + 1, high, k);
 		} else {
-			return mmQuickSort(arr, pivot + 1, end, k - length);
+			return mmQuickSort(arr, low, partition - 1, k);
 		}
 	}
 
 	public static int mmPartition(int arr[], int low, int high) {
-		int pivotValue = getPivot(arr, low, high);
-
-		while (low < high) {
-			while (arr[low] < pivotValue) {
-				low++;
-			}
-
-			while (arr[high] > pivotValue) {
-				high--;
-			}
-
-			if (arr[low] == arr[high]) {
-				low++;
-			} else if (low < high) {
-				int temp = arr[low];
-				arr[low] = arr[high];
-				arr[high] = temp;
+		int pivot = arr[high], pivotloc = low;
+		for (int i = low; i <= high; i++) {
+			if (arr[i] < pivot) {
+				int temp = arr[i];
+				arr[i] = arr[pivotloc];
+				arr[pivotloc] = temp;
+				pivotloc++;
 			}
 		}
 
-		return high;
+		int temp = arr[high];
+		arr[high] = arr[pivotloc];
+		arr[pivotloc] = temp;
+
+		return pivotloc;
 	}
 
 	public static int getPivot(int arr[], int low, int high) {
